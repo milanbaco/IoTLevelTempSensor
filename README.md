@@ -7,7 +7,7 @@ The hydrostatic sensor was connected to the Pi with a few jumper cables, with a 
 
 The DS18B20 was connected directly to the Raspberry Pi with the help of some tutorials.
 
-The device required 3G network capabilities as the client's intention was to distribute the devices to rural farms where WiFi was not available. I decided to use a Hologram Nova for the 3G functionality, mainly due to it's open-source SDK which would save me the hassle of programming AT cellular commands manually.
+The device required 3G network capabilities as the client's intention was to distribute the devices to rural farms where WiFi is not available. I decided to use a Hologram Nova for the 3G functionality, mainly due to it's open-source SDK which would save me the hassle of programming AT cellular commands manually.
 
 The python script I wrote starts by connecting the Nova to the cellular network, initializes the DS18B20 sensor, creates a SPI and defines methods for reading the values from each sensor.
 
