@@ -13,7 +13,7 @@ The python script I wrote starts by connecting the Nova to the cellular network,
 
 I added a loop that reads the values and then using JSON posts the data to a firebase server.
 
-The level sensor read a value of 0 at 0.00 volts and 1024 at 3.3V, there was a little bit of math in the script that is not included in the .py file, (I was mainly coding on the Pi locally and I forgot to save the final script to my PC before I handed the prototype over) which essentially defined a value of 0 as 0% capacity and 1024 as 100% capacity.
+The level sensor read a value of 0 at 0.0 volts and 1024 at 3.3 volts, there was a little bit of math in the script that is not included in the .py file, (I was mainly coding on the Pi locally and I forgot to save the final script to my PC before I handed the prototype over) which essentially defined a value of 0 as 0% capacity and 1024 as 100% capacity.
 
 I then scheduled a cron job that would run my script every time the Pi was connected to power, to save the client and their customers from having to interact with the prototype aside from plugging into power.
 
