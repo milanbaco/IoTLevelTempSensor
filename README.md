@@ -17,7 +17,7 @@ The level sensor read a value of 0 at 0.0 volts and 1024 at 3.3 volts, there was
 
 I then scheduled a cron job that would run my script every time the Pi was connected to power, to save the client and their customers from having to interact with the prototype aside from plugging into power.
 
-![alt text](https://github.com/milanbaco/IoTLevelTempSensor/103840207_820119688733747_9049998624980320457_n.jpg?raw=true)
+![alt text](https://github.com/milanbaco/IoTLevelTempSensor/blob/master/103840207_820119688733747_9049998624980320457_n.jpg?raw=true)
 
 
 
