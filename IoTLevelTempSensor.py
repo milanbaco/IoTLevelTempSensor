@@ -72,7 +72,7 @@ while True:
 
 
         #firebase url for client was entered here = ''
-
+        #url = ''
         postdata = {
                 'datetime': str(calendar.timegm(time.gmtime())),        
                 'temperature': str(read_temp()),
